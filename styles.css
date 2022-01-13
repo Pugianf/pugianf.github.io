@@ -41,7 +41,7 @@
 
 .background {
     position: absolute;
-    background-image: url("../assets/background.png");
+    background-image: url("background.png");
     background-size: contain;
     width: 1440px;
     height: 1093px;

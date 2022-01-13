@@ -1,0 +1,467 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+    padding: 40px 0;
+    transition: 0.3s;
+}
+
+.logo {
+    position: absolute;
+    left: 167.02px;
+    top: 35.02px;
+}
+
+.menu {
+    position: absolute;
+    width: 234px;
+    height: 15px;
+    left: 1041px;
+    top: 37px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.menu a {
+    padding: 16px;
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+.background {
+    position: absolute;
+    background-image: url("../assets/background.png");
+    background-size: contain;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: -10px;
+
+}
+.banner {
+    position: relative;
+    width: 1440px;
+    height: 1093px;
+    color: white;
+    font-family: Source Sans Pro;
+ }
+
+ .banner h1 {
+    text-align: center;
+    margin-top: 220px;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 151px;
+ }
+
+ .banner h2 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 300;
+    top: calc(50% - 40px/2 + 79.5px);
+    left: 41.94%;
+ }
+
+ .subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 41.18%;
+    top: calc(50% - 20px/2 - 175.5px);
+ }
+
+ .subtitle p {
+    display: inline;
+    padding-inline-end: 65px;
+ }
+
+ .button {
+    position: absolute;
+    left: 44.38%;
+    top: 38.33%;
+    border: none;
+    cursor: pointer;
+    background-color: #c271ff;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.pros {
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+}
+
+.pros1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+}
+
+.pros2 {
+    position: absolute;
+    left: 28%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+}
+
+.pros3 {
+    position: absolute;
+    left: 56%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+}
+
+.pros4 {
+    position: absolute;
+    left: 85%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+}
+
+.pros img{
+    width: 150px;
+    height: 150px;
+}
+
+.pros p {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    top: 110%;
+}
+
+.pros h3 {
+    position: absolute;
+    font-weight: 900;
+    top: 90%;
+    line-height: 27px;
+    text-align: center;
+}
+
+
+.pros4 h3, .pros1 h3, .pros3 h3 {
+    left: 15px;
+}
+
+.pros2 h3{
+    left: 3px;
+}
+
+.pros2 p {
+    left: 15px;
+}
+
+.pros1 p, .pros4 p {
+    left: 7px;
+}
+
+.quote {    
+    background-color: #c271ff;
+    position: relative;
+    width: 1440px;
+    height: 392px;
+    top: -30px;
+}
+
+.quote img {
+   position: absolute;
+   width: 160px;
+   height: 160px;
+   left: 260px;
+   top: 108px;
+ }
+
+.qText {
+   position: absolute;
+   width: 730px;
+   height: 68px;
+   left: 423px;
+   top: 85px;
+   color: white;
+   font-family: 'Source Sans Pro';
+   font-size: 20px;
+   line-height: 33.6px;
+ }
+
+.tutorials {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1228px;
+    height: 450px;
+    left: 10px;
+    top: 1572px;
+    font-family: 'Source Sans Pro';
+}
+
+.tutorials h1 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: start;
+    position: absolute;
+    left: 39.25%;
+    top: calc(50% - 40px/2 - 205px);
+}
+
+.tuto {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     top: 115px;
+     left: 60px;
+}
+
+.video img {
+    width: 255px;
+    height: 154px;
+}
+
+.video h2 {
+     padding-left: 10px;
+     font-size: 16px;
+     font-weight: bold;
+}
+
+.video p {
+     padding-left: 10px;
+     font-size: 14px;
+     font-weight: 300;
+     width: 242px;
+     height: 48px;
+}
+
+.author img {
+    padding-left: 10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: auto;
+    top: 261px;
+}
+
+.author h3 {
+    position: absolute;
+    top: 255px;
+    left: auto;
+    padding-left: 50px;
+    font-size: 14px;
+    color: #c271ff;
+}
+
+.starc {
+     padding-left: 40px;
+}
+
+.star img {
+     padding-left: 10px;
+     position: relative;
+     width: 15px;
+     height: 15px;
+     top: 40px;
+}
+
+.min {
+    position: relative;
+    height: 27px;
+    left: 60%;
+    top: 5px;
+    color: #c271ff;
+    font-weight: 700;
+}
+
+.membership {
+    background-color: #071629;
+    position: relative;
+    width: 1440px;
+    height: 502px;
+    left: 0%;
+    top: 22%;
+}
+ 
+.membership h1{
+    position: relative;
+    top: 70px;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    text-align: center;
+}
+
+.membContent{
+    display: flex;
+    position: relative;
+    top: 120px;
+    left: 204px;
+    width: 1112px;
+    height: 282px;
+}
+
+.membContent button{
+    position: absolute;
+    left: 39%;
+    top: 78%;
+  
+}
+
+.dot {
+    color: white;
+    font-family: 'Source Sans Pro';
+    position: relative;
+    text-align: center;
+    width: 257px;
+    height: 153px;
+}
+
+.dot img{
+    width: 43.5px;
+    height: 35.5;
+}
+
+.dot h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dot p {
+    font-size: 14px;
+    font-weight: 300;
+    width: 215px;
+    height: 52px;
+    padding-inline: 21px;
+}
+
+.faq{
+    font-family: "Source Sans Pro";
+    position: relative;
+    width: 920px;
+    height: 707px;
+    left: 18%;
+    top: 23%;
+}
+
+.faq h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.faqContent1 h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.faqContent1 p{
+    font-size: 14px;
+    color: #07162980;
+}
+
+.fc1 {
+    position: absolute;
+    left: 0%;
+    top: 21%;
+    width: 350px;
+    height: 242px;
+}
+
+.fc2 {
+    position: absolute;
+    left: 62%;
+    top: 21%;
+    width: 350px;
+    height: 242px;
+}
+
+.faqContent2 h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.faqContent2 p{
+    font-size: 14px;
+    color: #07162980;
+}
+
+.fc3 {
+    position: absolute;
+    left: 0%;
+    top: 66%;
+    width: 350px;
+    height: 242px;
+  }
+
+.fc4 {
+    position: absolute;
+    left: 62%;
+    top: 66%;
+    width: 350px;
+    height: 242px;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 249px;
+    left: -90px;
+    top: 3469px;
+    background-color: #071629;
+}
+
+.footer p {
+    position: absolute;
+    left: 47%;
+    top: calc(50% - 15px/2 + 78px);;
+    font-family: 'Source Sans Pro';
+    color: white;
+    font-size: 12px;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
+
+.flogo {
+    position: absolute;
+    left: 11.46%;
+    top: 38.15%;
+    width: 169px;
+    height: 30px;
+}
+
+.social {
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 1070px;
+    top: 90px;
+}
+
+.social img {
+    padding-inline: 20px;
+}
